@@ -1,0 +1,93 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ddd;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 50px 0px;
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+}
+
+.container {
+    width: 600px;
+    background-color: white;
+    margin: 0px auto;
+    padding: 30px;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+}
+
+.gallery li {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    border: 5px solid #6666;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+
+.gallery li img {
+    border-radius: 50%;
+}
+
+.gallery li span {
+    display: block;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(200, 200, 200, .5);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 120px;
+    color: #333;
+    text-shadow: 1px 1px 1px #ddd;
+    opacity: 0;
+    transition: 0.3s;
+    transform: scale(0) rotate(0);
+}
+
+.gallery li a:hover span {
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* overlay */
+
+.overlay {
+    position: fixed;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 9999;
+    transition: .5s;
+    text-align: center;
+    padding: 100px;
+}
+
+.overlay:target {
+    width: auto;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.overlay,
+img {
+    max-height: 100;
+}

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+h1{
+    color: red;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+
+h2{
+    color: #E6001A;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: line-through;
+    text-transform: capitalize ;
+}
+
+h3{
+    color: rgb(233, 14, 14);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-decoration: underline;
+    text-transform: lowercase;
+}
+
+p{
+    text-align: justify;
+    text-indent: 100px;
+    word-spacing: 5px;
+}
+
+a{
+    text-decoration: none;
+    text-align: left;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    height: 1000;
+}
+
+img{
+    width: 500px;
+    filter: hue-rotate(100deg);
+    text-align: center;
+}
+
+img:hover{
+    filter: invert(50%);
+}
+
+.nfs,h1{
+    filter: drop-shadow(5px 5px 5px black);
+    filter: sepia(100%);
+}

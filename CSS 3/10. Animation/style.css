@@ -1,0 +1,27 @@
+    /* animation: name duration timing-function delay iteration-count direction fill-mode play-state; */
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .kotak {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        animation: animasi-kotak 3s ease infinite alternate forwards;
+    }
+    
+    @keyframes animasi-kotak {
+        0% {
+            width: 200px;
+        }
+        50% {
+            width: 500px;
+            height: 200px;
+        }
+        100% {
+            width: 500px;
+            height: 500px;
+        }
+    }

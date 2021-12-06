@@ -1,0 +1,66 @@
+.hello:link{
+    color: red;
+    text-decoration: none;
+}
+
+.hello:hover{
+    font-family: sans-serif;
+    font-size: 28px;
+    color: black;
+}
+
+.hello:active{
+    font-style: italic;
+}
+
+.hello:visited{
+    color: royalblue;
+}
+
+li:last-child a{
+    color: seagreen;
+}
+
+li:first-child a{
+    color: red;
+}
+
+li:first-child a:hover{
+    color:pink;
+}
+
+li:nth-child(5) a{
+    color: orange;
+}
+li:nth-child(6) a{
+    color: yellow;
+}
+
+/* contoh penggunaan even dan odd
+    li:nth-child(even) a{
+    color: brown;
+}
+
+li:nth-child(odd) a{
+    color: pink;
+}
+*/
+
+p:first-of-type{
+    color: blue;
+}
+
+p:last-of-type{
+    color: purple;
+}
+
+
+
+
+
+
+
+
+
+
+

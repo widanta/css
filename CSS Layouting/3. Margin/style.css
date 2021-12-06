@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.satu{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.dua{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tiga{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* penggunaan margin shothand 
+    Contoh :
+    margin: 50px; = semuanya sisi marginnya 50px
+    margin: 50px 20px; = sisi atas dan bawah=50px ,sisi kanan dan kiri=20px
+    margin: 50px 20px 10px ; = sisi atas=50px , sisi kanan dan kiri=20px ,sisi bawah=10px
+    margin: 50px 20px 10px 30px; = sisi atas=50px ,sisi kanan=20px ,sisi bawah=10px ,sisi kiri=30px
+*/
+
+
+.empat{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    margin: 0px auto 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
